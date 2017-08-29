@@ -8,6 +8,11 @@ import VueResource from 'vue-resource'
 import App from './App'
 import router from './router'
 
+// bootstrap 4
+window.jQuery = require('jquery')
+window.Tether = require('tether')
+require('bootstrap')
+
 Vue.use(VueResource)
 
 Vue.config.productionTip = false
